@@ -89,7 +89,7 @@ export default function Dashboard(props) {
 		<ChakraProvider theme={theme} resetCss={false}>
 			<Sidebar
 				routes={routes}
-				logoText={'PURITY UI DASHBOARD'}
+				logoText={'DOOKAN DASHBOARD'}
 				display='none'
 				sidebarVariant={sidebarVariant}
 				{...rest}
@@ -100,14 +100,14 @@ export default function Dashboard(props) {
 					xl: 'calc(100% - 275px)'
 				}}>
 				<Portal>
-					<AdminNavbar
+					{/* <AdminNavbar
 						onOpen={onOpen}
 						logoText={'PURITY UI DASHBOARD'}
 						brandText={getActiveRoute(routes)}
 						secondary={getActiveNavbar(routes)}
 						fixed={fixed}
 						{...rest}
-					/>
+					/> */}
 				</Portal>
 				{getRoute() ? (
 					<PanelContent>

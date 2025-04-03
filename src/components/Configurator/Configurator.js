@@ -148,7 +148,7 @@ export default function Configurator(props) {
                     w="100%"
                     mb="16px"
                   >
-                    <Button
+                    {/* <Button
                       w="100%"
                       mb="16px"
                       bg={bgButton}
@@ -158,7 +158,7 @@ export default function Configurator(props) {
                       px="30px"
                     >
                       Free Download
-                    </Button>
+                    </Button> */}
                   </Link>
                   <Link
                     href="https://demos.creative-tim.com/docs-purity-ui-dashboard/"

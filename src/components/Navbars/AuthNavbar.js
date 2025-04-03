@@ -98,10 +98,10 @@ export default function AuthNavbar(props) {
           variant="transparent-with-icon"
           leftIcon={<HomeIcon color={navbarIcon} w="12px" h="12px" me="0px" />}
         >
-          <Text>Dashboard</Text>
+          <Text> General Events Dashboard</Text>
         </Button>
       </NavLink>
-      <NavLink to="/admin/profile">
+      {/* <NavLink to="/admin/profile">
         <Button
           fontSize="sm"
           ms="0px"
@@ -116,7 +116,7 @@ export default function AuthNavbar(props) {
         >
           <Text>Profile</Text>
         </Button>
-      </NavLink>
+      </NavLink> */}
       <NavLink to="/auth/signup">
         <Button
           fontSize="sm"
@@ -185,7 +185,7 @@ export default function AuthNavbar(props) {
         </Box>
         {linksAuth}
         <Link href="https://creative-tim.com/product/purity-ui-dashboard">
-          <Button
+          {/* <Button
             bg={bgButton}
             color={colorButton}
             fontSize="xs"
@@ -198,7 +198,7 @@ export default function AuthNavbar(props) {
             }}
           >
             Free Download
-          </Button>
+          </Button> */}
         </Link>
       </Flex>
     </Flex>
